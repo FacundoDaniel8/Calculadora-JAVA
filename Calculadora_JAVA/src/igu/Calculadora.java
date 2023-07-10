@@ -392,7 +392,7 @@ public class Calculadora extends JFrame implements ActionListener {
 			}
 			return;					      //termina el proceso del boton sin continuar el resto
 		}
-		//finaly existe pero se usa en casos donde se ejecuta con o sin error,no se usarlo,busca vago				 	
+		//finaly existe pero se usa en casos donde se ejecuta con o sin error				 	
 
 		if(btnSuma1==e.getSource()) {
 			txtResultado.setText(String.valueOf(num1+num2));
