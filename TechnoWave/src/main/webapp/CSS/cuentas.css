@@ -1,0 +1,337 @@
+:root{
+    --fondo_gris-oscur: #2C2C32;
+    --gris-claro: #424242;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: #2C2C32;
+    height: 100%;
+    width:100%;
+     }
+.Menu_principal{
+    background-color: #101F37;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.Menu_principal_cajas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Menu_principal_cajas li{
+    list-style: none;
+    display: inline-block;
+}
+.Menu_principal_cajas a{
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #0EAC8C;
+    font-size: 75px;
+}
+
+
+
+
+/* Inicio de la barra de busqueda */
+.Caja_contenedora{    
+max-width: 400px;
+width: 100%;
+}
+.Caja_contenedora .Caja_busqueda{
+    position: relative;
+    height: 50px;
+    max-width: 380px;
+    margin: auto;
+}
+.Caja_busqueda input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:white;
+    border-radius: 25px;
+    outline: none;
+    border: red;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.Caja_busqueda .icon{
+    position: absolute;
+    text-align: center;
+    right: -2px;
+    top: 0;
+    width: 50px;
+    background:#0EAC8C;
+    color: white;
+    height: 100%;
+    font-size: 20px;
+    border-radius:0 25px 25px 0;
+    line-height: 50px;
+}
+/* Inicio del codigo del nav de foindoi */
+.Articulos{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-image: url("https://t4.ftcdn.net/jpg/03/77/78/29/360_F_377782976_sZHn1LkO7kPriRLVpb8jQbGlq0Nk3r1l.webp");
+    /*filter: blur(1px);
+    -webkit-filter: blur(1px);*/
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Articulos_aux{
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.texto{
+    font-size: 15px;
+}
+.Articulos_aux a{
+    color: white;
+    text-decoration: none;
+}
+/* css de footer */
+.pie_pagina{
+    background-color: #2C2C32;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.pie_pagina .iconos{
+    padding-right: 300px;
+    padding-left: 300px;     
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.iconos a{
+    color:#0EAC8C;
+    text-decoration: none;
+    margin: 10%;
+}
+.info_pie{
+    margin-top: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+/* aca empiezo yo */
+.contedor_principal{
+    background-color: var(--fondo_gris-oscur);
+    background-image: url("../../Imagenes/fondo-alien-tecno-retro.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+    /*background-attachment: fixed; esto le da el parallax */
+}
+.contenedor_registros{
+    background-color: var(--gris-claro);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding: 5%;
+    display: block;
+    justify-content: space-between;
+    justify-content: center;
+}
+.contenedor_registros p{
+    color: #C6C4C4;
+    font-size: 20px;            
+}
+.contenedor_registros h1{
+color: #0EAC8C;
+text-decoration: underline;
+text-align: center;
+font-weight: bolder;
+font-size: 40px;
+padding-top: 5%;
+bottom: none;
+}
+.contenedor_registros button{
+    margin-top: 5%;
+    padding: 1%;
+    background-color:#0FAC8C;
+    color: white;
+    border-radius: 10px;
+    text-align: right;
+    text-decoration: none;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-weight: bold;   
+}
+
+.nombre{
+margin: 5%;
+}
+.gmail2 p{
+    color: white;
+    text-decoration: underline;
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.gmail2 input{
+    border-radius: 10px;
+    background-color: #737373;
+    width: 100%;
+    border: none;
+    text-align: center;
+    color: white;
+}
+.gmail2v2 p{
+    color: white;
+    text-decoration: underline;
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.gmail2v2 input{
+    border-radius: 10px;
+    background-color: #737373;
+    width: 100%;
+    border: none;
+    text-align: center;
+    color: white;
+}
+.nombre{
+    margin: 5%;
+    }
+    .nombre p{
+        color: white;
+        text-decoration: underline;
+        text-align: left;
+        font-weight: bold;
+        font-size: 25px;
+        
+    }
+    .nombre input{
+        border-radius: 10px;
+        background-color: #737373;
+        color: white;
+        width: 100%;
+        border: none;
+        text-align: center;
+    }
+    .apellido{
+        margin: 5%;
+        }
+    .apellido p{
+        color: white;
+        text-decoration: underline;
+        text-align: left;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .apellido input{
+        border-radius: 10px;
+        background-color: #737373;
+        width: 100%;
+        color: white;
+        border: none;
+        text-align: center;
+    }
+    .gmail{
+        margin: 5%;
+        }
+    .gmail p{
+        color: white;
+        text-decoration: underline;
+        text-align: left;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .gmail input{
+        border-radius: 10px;
+        background-color: #737373;
+        width: 100%;
+        color: white;
+        border: none;
+        text-align: center;
+    }
+    .contraseña{
+        margin: 5%;
+        }
+    .contraseña p{
+        color: white;
+        text-decoration: underline;
+        text-align: left;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .contraseña input{
+        border-radius: 10px;
+        background-color: #737373;
+        width: 100%;
+        border: none;
+        text-align: center;
+        margin-bottom: 5%;
+        color: white;
+    }
+    
+    
+    
+
+.logo{
+    width: 200px;
+    height: 100%;
+}
+.logo a .foto_logo_twave{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.img-navbar{
+    width: 105px;
+    height: 50%;
+    object-fit: contain;
+}
+.user{
+    width: 50px;
+}
+/*.logo a{
+//    font-size: 25px;
+//    text-decoration: none;
+//    display: inline-block;
+//    text-align: center;
+}*/
+.texto-normal{
+    font-size: 13px;
+    color:#ff0033;
+}
